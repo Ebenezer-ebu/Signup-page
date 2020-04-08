@@ -1,0 +1,88 @@
+body {
+    text-align: center;
+    background-color: #ADD8E6;
+    font-family: U8, sans-serif;
+    line-height: 1.5;
+}
+
+header {
+    padding: 2.5rem 2.5rem 0 2.5rem
+}
+
+.body-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 3rem;
+}
+
+.form-header{
+    line-height: 36px;
+    font-weight: 700;
+    color: #083e9e;
+    font-size: 24px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+p {
+    text-align: center;
+    margin-top: 5px;
+}
+form {
+    display: inline-block;
+    text-align: left;
+    background-color: whitesmoke;
+    border-radius: 25px 25px 25px 0px;
+    width: 500px; 
+    padding-bottom: 2.5rem;
+    margin-top: 30px;
+}
+.input-container {
+    color: rgba(24, 6, 6, 0.774);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+label {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    width: 400px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+input#create-account{
+    text-align: center;
+    margin-bottom: 5px;
+    width: 400px;
+    background-color: rgba(43, 43, 161, 0.938);
+    color: white;
+    border-radius: 15px 15px 15px 0px;
+    font-weight: bold;
+}
+select {
+    width: 400px;
+    margin-bottom: 5px;
+    border-radius: 5px 5px 5px 5px;
+    padding-left: 10px;
+}
+.footer {
+    text-decoration-color: midnightblue;
+    padding: 30px;
+}
+.buttonHolder{
+    text-align: center;
+}
+
+.form-field {
+    border-radius: 5px;
+    background-color: #edf2f7;
+    border: none;
+    height: 50px; 
+    font-size: medium;
+    padding: 10px
+}
